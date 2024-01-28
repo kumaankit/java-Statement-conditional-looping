@@ -1,0 +1,29 @@
+package statement;
+
+import java.util.Scanner;
+
+public class ifelsestatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n;
+		System.out.println("enter any number");
+		
+		Scanner a =new Scanner(System.in);
+	
+	n= a.nextInt();
+	if(n>=0)
+	{
+		
+		System.out.println(" positive number");
+		
+	}
+	else
+	{
+		System.out.println("negative number");
+	}
+	
+	}
+
+}
